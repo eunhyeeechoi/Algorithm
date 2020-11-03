@@ -1,28 +1,31 @@
 package programmers.kit.sort;
 
+import java.util.Arrays;
+
 public class t42748 {
 	public int[] solution(int[] array, int[][] commands) {
-		int[] answer = {};
+		int[] answer = new int[commands.length];
 		int[] a = {};
+		int[] b = {};
+		int index = 0;
 		for (int i = 0; i < commands.length; i++) {
+			a = new int[commands[i].length];
 			for (int j = 0; j < commands[i].length; j++) {
-				a = new int[commands[i].length];
 				a[j] = commands[i][j];
-				System.out.print(a[j]);
-//				System.out.print(commands[i][j]);
-				for (int p = a[0]; p < a[1]; p++) {
-//					int[] array2 = array[p];
-//					System.out.print("p 값:" + p);
-				}
+				// 2차원 배열을 1차원 배열로 분리 해서 새로운 배열 생성
 			}
-			System.out.println(".");
-//			System.out.println(commands[i][j]);
-
+			int c = 0;
+			b = new int[a[1] - a[0] + 1];
+			for (int p = a[0] - 1; p < a[1]; p++) {
+//				System.out.print(array[p]);
+				b[c++] = array[p];
+//				System.out.print("b값 : " + b[p]);
+			}
+			Arrays.sort(b);
+//			System.out.println(b[1]);
+//			System.out.println(a[2] - 1 + "/ " + b[a[2] - 1]);
+			answer[index++] = b[a[2] - 1];
 		}
-		for (int q = 0; q < a.length; q++) {
-			System.out.println("a 값: "+a[q]);
-		}
-
 		return answer;
 	}
 
