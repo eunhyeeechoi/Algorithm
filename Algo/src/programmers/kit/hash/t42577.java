@@ -1,4 +1,4 @@
-package programmers.kit;
+package programmers.kit.hash;
 
 public class t42577 {
 	public boolean solution(String[] phone_book) {
