@@ -1,5 +1,5 @@
 package doit.chap06;
-
+// 2020.11.07 BuubbleSort ver2
 public class BubbleSort2 {
 	static void swap(int[] a, int idx1, int idx2) {
 		int t = a[idx1];
