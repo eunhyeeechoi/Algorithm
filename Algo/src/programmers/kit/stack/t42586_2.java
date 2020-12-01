@@ -1,10 +1,10 @@
-package programmers.kit;
+package programmers.kit.stack;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-//프로그래머스 기능 개발 - 은혜 풀이
-public class t42586_3 {
+//프로그래머스 기능 개발
+public class t42586_2 {
 	public static int[] solution(int[] progresses, int[] speeds) {
 		int[] pro = progresses; // 복사본
 		Queue<Integer> result = new LinkedList<>(); // 배포 수 저장
@@ -33,7 +33,7 @@ public class t42586_3 {
 	}
 
 	public static void main(String[] args) {
-		t42586_3 aa = new t42586_3();
+		t42586_2 aa = new t42586_2();
 		int[] progresses = { 93, 30, 55 };
 		int[] speeds = { 1, 3, 5 };
 		int[] bb = aa.solution(progresses, speeds);

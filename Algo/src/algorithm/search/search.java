@@ -25,7 +25,7 @@ class Queue<T> {
 		}
 		last = t;
 		if (first == null) {// 데이터가 없을때
-			first = last;
+			first = last;// 같은것으로 지정
 		}
 	}
 

@@ -1,4 +1,4 @@
-package programmers.kit;
+package programmers.kit.stack;
 
 public class t42586 {
 	public int[] solution(int[] progresses, int[] speeds) {
