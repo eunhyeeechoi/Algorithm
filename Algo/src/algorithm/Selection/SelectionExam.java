@@ -1,28 +1,28 @@
 package algorithm.Selection;
 
+// 2020.12.07
+//¼±ÅÃ Á¤·Ä Selection Sort ¹è¿­À» µ¹¸é¼­ °¡Àå ÀÛÀº °ªºÎÅÍ ¾ÕÀ¸·Î ÇÏ³ª¾¿ Â÷°î Â÷°î ¿Å±è °¡Àå ÀÛÀº °ªÀ» Ã£°í, º¯¼ö¿¡
+//ÀúÀåÇÏ±¸ ¸Ç¾Õ °ª°ú ±³Ã¼ ÇÏ´Â ¹æ½ÄÀ¸·Î ÁøÇà ¾Õ¿¡¼­ºÎÅÍ ÇÑÄ­¾¿ ÀÌµ¿ÇÏ¸ç ÀÌ¶§¹Ù´Ù ÀüÃ¼¹æÀ» ÇÑ¹ø¾¿ ¹Ýº¹ÇÏ±â ¶§¹®¿¡ 
+//½Ã°£º¹Àâµµ°¡ O(n2) ÀÌ´Ù.
 public class SelectionExam {
-	/*
-	 * ì„ íƒ ì •ë ¬ â€“ Selection Sort ë°°ì—´ì„ ëŒë©´ì„œ ê°€ìž¥ ìž‘ì€ ê°’ë¶€í„° ì•žìœ¼ë¡œ í•˜ë‚˜ì”© ì°¨ê³¡ ì°¨ê³¡ ì˜®ê¹€ ê°€ìž¥ ìž‘ì€ ê°’ì„ ì°¾ê³ , ë³€ìˆ˜ì—
-	 * ì €ìž¥í•˜êµ¬ ë§¨ì•ž ê°’ê³¼ êµì²´ í•˜ëŠ” ë°©ì‹ìœ¼ë¡œ ì§„í–‰ ì•žì—ì„œë¶€í„° í•œì¹¸ì”© ì´ë™í•˜ë©° ì´ë•Œë°”ë‹¤ ì „ì²´ë°©ì„ í•œë²ˆì”© ë°˜ë³µí•˜ê¸° ë•Œë¬¸ì— ì‹œê°„ë³µìž¡ë„ê°€ O(n2)
-	 * ì´ë‹¤.s
-	 */
+
 	private static void selectionSort(int[] arr) {
-		selectionSort(arr, 0); // ë°°ì—´, ì •ë ¬ì´ ì•ˆëœê³³ì˜ ì‹œìž‘ìœ„ì¹˜ë¥¼ ë„˜ê¹€
+		selectionSort(arr, 0);// ¹è¿­, Á¤·ÄÀÌ ¾ÈµÈ°÷ÀÇ ½ÃÀÛÀ§Ä¡¸¦ ³Ñ±è
 	}
 
 	private static void selectionSort(int[] arr, int start) {
-		// ë°°ì—´ê³¼ ì‹œìž‘ì ì„ ì¸ìžë¡œ ë°›ì•„ì„œ ì§„í–‰
-		if (start < arr.length - 1) { // ì‹œìž‘ì ì´ ë°°ì—´ë³´ë‹¤ ìž‘ì„ë™ì•ˆ ì§„í–‰
-			int min_index = start; // ê°€ìž¥ ìž‘ì€ ë°©ì˜ ì¸ë±ìŠ¤ë¥¼ ì €ìž¥í•  ë³€ìˆ˜
+		// ¹è¿­°ú ½ÃÀÛÁ¡À» ÀÎÀÚ·Î ¹Þ¾Æ¼­ ÁøÇà
+		if (start < arr.length - 1) { // ½ÃÀÛÁ¡ÀÌ ¹è¿­º¸´Ù ÀÛÀ»µ¿¾È ÁøÇà
+			int min_index = start; // °¡Àå ÀÛÀº ¹æÀÇ ÀÎµ¦½º¸¦ ÀúÀåÇÒ º¯¼ö
 			for (int i = start; i < arr.length; i++) {
 				if (arr[i] < arr[min_index])
 					min_index = i;
-				// ê°€ìž¥ ìž‘ì€ê°’ìœ¼ë¡œ ì§€ì •í•´ ë’€ë˜ ì¸ë±ìŠ¤ì˜ ê°’ë³´ë‹¤ íƒìƒ‰í•œ ë°©ì˜ ê°’ì´ ìž‘ì„ë•Œ ì¸ë±ìŠ¤ êµì²´
+				// °¡Àå ÀÛÀº°ªÀ¸·Î ÁöÁ¤ÇØ µ×´ø ÀÎµ¦½ºÀÇ °ªº¸´Ù Å½»öÇÑ ¹æÀÇ °ªÀÌ ÀÛÀ»¶§ ÀÎµ¦½º ±³Ã¼
 			}
 			swap(arr, start, min_index);
-			// ê°€ìž¥ ìž‘ì€ ê°’ê³¼ start index ê°€ ê°€ë¦¬í‚¤ëŠ” ê°’ì„ êµí™˜
+			// °¡Àå ÀÛÀº °ª°ú start index °¡ °¡¸®Å°´Â °ªÀ» ±³È¯
 			selectionSort(arr, start + 1);
-			// ì‹œìž‘ì ì„ í•˜ë‚˜ ì¦ê°€ì‹œì¼œ í•œë²ˆë” ì§„í–‰
+			// ½ÃÀÛÁ¡À» ÇÏ³ª Áõ°¡½ÃÄÑ ÇÑ¹ø´õ ÁøÇà
 
 		}
 	}
@@ -34,14 +34,14 @@ public class SelectionExam {
 	}
 
 	private static void printArray(int[] arr) {
-		for(int data : arr) {
-			System.out.print(data+",");
+		for (int data : arr) {
+			System.out.print(data + ",");
 		}
 		System.out.println();
 	}
 
 	public static void main(String[] args) {
-		int[] arr= {3,6,1,8,2,4};
+		int[] arr = { 3, 6, 1, 8, 2, 4 };
 		printArray(arr);
 		selectionSort(arr);
 		printArray(arr);
