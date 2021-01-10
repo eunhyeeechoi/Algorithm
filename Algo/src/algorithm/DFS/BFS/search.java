@@ -1,4 +1,4 @@
-package algorithm.search;
+package algorithm.DFS.BFS;
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
