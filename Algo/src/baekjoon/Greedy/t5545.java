@@ -1,9 +1,10 @@
-package algorithm.Greedy;
+package baekjoon.Greedy;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
+//2020. 01. 08 백준 최고의 피자
 public class t5545 {
 
 	public static void main(String[] args) {
@@ -29,7 +30,7 @@ public class t5545 {
 		for (int i = 0; i < n; i++) {
 			tmpKCal += topKCal[i];
 			tmpPrice += topPrice;
-			
+
 			int tmpAns = tmpKCal / tmpPrice;
 			// 토핑의 칼로리 / 가격 연산해서 1원당 가격이 이전 결과보다 작으면 종료
 
