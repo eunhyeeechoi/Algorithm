@@ -25,6 +25,7 @@ public class t14606 {
 			// 1. 한개를 1로만들고 N-1
 			// 2. m / n 으로 나누어 최대값 구하기
 		}
+		return n;
 	}
 
 	public static void main(String[] args) throws NumberFormatException, IOException {

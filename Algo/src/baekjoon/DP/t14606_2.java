@@ -27,6 +27,7 @@ public class t14606_2 {
 				pizza[2] = N / m;
 			}
 		}
+		return 1;
 	}
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
