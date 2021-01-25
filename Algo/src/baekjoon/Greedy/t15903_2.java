@@ -29,6 +29,7 @@ public class t15903_2 {
 		for (int j = 0; j < loopCnt; j++) {
 			aa[j + 1] = aa[j] + aa[j + 1];
 			aa[j] = aa[j] + aa[j + 1]; // µ¤¾î¾º¿ì±â ÀÌ°Ô ÃÖ¼±..?
+			Arrays.sort(aa);
 		}
 
 		for (int p = 0; p < cardCnt; p++) {
