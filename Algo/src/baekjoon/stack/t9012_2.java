@@ -25,14 +25,11 @@ public class t9012_2 {
 
 		for (int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);
-
 			// 여는 괄호일 경우 스택에 넣는다.
 			if (c == '(') {
 				stack.push(c);
 			}
-
 			// 닫는 괄호일 경우
-
 			// 1. 스택이 비어있는 경우, 닫는 괄호를 입력 받았지만 pop 할것이 없을때 짝이 안맞는것
 			else if (stack.empty()) {
 				return "NO";
