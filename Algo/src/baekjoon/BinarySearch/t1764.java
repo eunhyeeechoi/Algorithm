@@ -24,7 +24,7 @@ public class t1764 {
 		List<String> li = new ArrayList<>();
 		List<String> see = new ArrayList<String>();
 		List<String> nolisee = new ArrayList<String>();
-		// 못들은사람, 못본사람 각각 나눠서 String 배열에 넣고
+		// 못들은사람, 못본사람 각각 나눠서 List 배열에 넣고
 		// contains 일때마다 count 를 증가시키자
 		System.out.println("noli+nosee " + (noli + nosee));
 
