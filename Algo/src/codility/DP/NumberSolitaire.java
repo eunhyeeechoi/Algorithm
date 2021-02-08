@@ -1,7 +1,7 @@
 package codility.DP;
 
 import java.util.Random;
-
+ // 코딜리티 DP - 
 public class NumberSolitaire {
 	static int r = 0; // 주사위 값 담을것
 	static int p = 0; // 주사위 위치
