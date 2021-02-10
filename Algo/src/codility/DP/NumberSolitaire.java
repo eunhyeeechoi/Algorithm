@@ -1,7 +1,7 @@
 package codility.DP;
 
 import java.util.Random;
- // 코딜리티 DP - 
+ // 코딜리티 DP - NumberSolitaire
 public class NumberSolitaire {
 	static int r = 0; // 주사위 값 담을것
 	static int p = 0; // 주사위 위치
@@ -17,15 +17,15 @@ public class NumberSolitaire {
 //		}
 		while (p + r <= l) {
 			r = ran.nextInt(5) + 1;// 1~6 주사위 값 생성
-//			System.out.println("r 머나옴" + r);
+			System.out.println("r 머나옴" + r);
 			p = p + r;
 			q += A[p];
-//			System.out.println("q 값 :" + q);
+			System.out.println("q 값 :" + q);
 			if (r + p == l) {
 				break;
 			}
 		}
-//		System.out.println(q);
+		System.out.println(q);
 		return q;
 
 //		if (r + p < l) { // 주사위 나온값 + 조약돌 위치가 배열 길이보다 짧으면 반복
