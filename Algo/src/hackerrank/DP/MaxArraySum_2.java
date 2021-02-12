@@ -1,4 +1,4 @@
-package codility.DP;
+package hackerrank.DP;
 
 import java.io.IOException;
 
