@@ -15,7 +15,8 @@ public class t42586_3 {
 				pro[i] += speeds[i];
 
 			if (pro[index] >= 100) { // index 작업이 배포될 수 있으면
-				while (index < pro.length && pro[index] >= 100) { // 다른 것도 같이 배포될 수 있는지
+				while (index < pro.length && pro[index] >= 100) {
+					// 다른 것도 같이 배포될 수 있는지
 					count++;
 					index++;
 				}

@@ -38,7 +38,7 @@ public class t7576_2 {
 
 		box = new int[M][N];
 
-		// box에 담겨있는 토마토 꺼내기
+		// box에 토마토 담기
 		for (int i = 0; i < M; i++) {
 			st = new StringTokenizer(br.readLine());
 			for (int j = 0; j < N; j++) {
@@ -70,12 +70,13 @@ public class t7576_2 {
 			day = dot.day;
 
 			for (int i = 0; i < 4; i++) {
+				// 오 왼 위 아 모든방향으로 이동해서 탐색해보기 위한것
 				int nx = dot.x + dx[i];
 				int ny = dot.y + dy[i];
 
 				if (0 <= nx && nx < M && 0 <= ny && ny < N) {
-					if (box[nx][ny] == 0) {
-						box[nx][ny] = 1;
+					if (box[nx][ny] == 0) { // box 에 토마토가 들어있으면
+						box[nx][ny] = 1; // 익히기
 						q.add(new Dot(nx, ny, day + 1));
 					}
 				}
