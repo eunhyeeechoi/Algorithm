@@ -17,6 +17,7 @@ public class t2110 {
 				last = a[i] + dist; // 마지막값 + 거리
 			}
 		}
+		System.out.println(cnt);
 		return cnt >= c;
 	}
 
@@ -45,6 +46,5 @@ public class t2110 {
 				end = mid - 1;
 			}
 		}
-		System.out.println(ans);
 	}
 }
