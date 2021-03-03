@@ -9,10 +9,10 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 import java.util.stream.IntStream;
 public class sample1 {
-	public static String findNumber(List<Integer> arr, int k) {
+	//public static String findNumber(List<Integer> arr, int k) {
 		// Write your code here
 
-	}
+	//}
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
