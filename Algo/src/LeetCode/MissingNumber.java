@@ -12,7 +12,7 @@ public class MissingNumber {
 				answer = i + 1;
 			}
 		}
-		System.out.println(answer);
+//		System.out.println(answer);
 		return answer;
 	}
 

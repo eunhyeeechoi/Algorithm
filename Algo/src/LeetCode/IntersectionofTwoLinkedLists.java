@@ -1,8 +1,11 @@
 package LeetCode;
 
-public class IntersectionofTwoLinkedLists {
+import java.util.HashSet;
+import java.util.Set;
 
-//	 * Definition for singly-linked list.
+public class IntersectionofTwoLinkedLists {
+//	https://velog.io/@madpotato1713/Leet-Code-160.-Intersection-of-Two-Linked-ListsC
+// 두개의 linkedlist 가 만나는 노드가 있다면 해당 주소값을 return 
 	public class ListNode {
 		int val;
 		ListNode next;
@@ -14,9 +17,20 @@ public class IntersectionofTwoLinkedLists {
 	}
 
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-		ListNode answer = null;
-		return answer;
+		Set<ListNode> set = new HashSet<>();
 
+		while (headA != null) {
+			set.add(headA);
+			headA = headA.next;
+		}
+
+		while (headB != null) {
+			if (set.contains(headB))
+				return headB;
+			headB = headB.next;
+		}
+
+		return null;
 	}
 
 	public static void main(String[] args) {

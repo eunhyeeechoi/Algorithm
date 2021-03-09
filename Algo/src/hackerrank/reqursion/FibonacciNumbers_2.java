@@ -3,7 +3,6 @@ package hackerrank.reqursion;
 public class FibonacciNumbers_2 {
 	static int fibonacciN[] = {};
 
-// 메모제이션을 사용한 방식
 	// https://hanhyx.tistory.com/34
 	public static int fibonacci(int n) {
 		// Complete the function.
