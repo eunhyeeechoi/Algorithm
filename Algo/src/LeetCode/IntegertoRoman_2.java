@@ -31,7 +31,14 @@ public class IntegertoRoman_2 {
 			num -= unitNum * romanUnit[i];
 			i++;
 		}
+		System.out.println(ret);
 		return ret;
+	}
+
+	public static void main(String[] args) {
+		IntegertoRoman_2 aa = new IntegertoRoman_2();
+		int num = 1994;
+		aa.intToRoman(num);
 	}
 
 }
