@@ -2,6 +2,7 @@ package LeetCode.Array;
 
 public class binarySearch {
 	// tow point 사용
+	// target 에서 nums 를 찾는다 
 	public int searach(int[] nums, int target) {
 		int left = 0;
 		int right = nums.length - 1;
