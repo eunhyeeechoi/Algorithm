@@ -9,7 +9,7 @@ import java.util.Set;
 public class SherlockandtheValidString_3 {
 	static String isValid(String s) {
 		String answer = "";
-		// ¹®ÀÚ¿­-> char ºĞ·ùÇØ¼­ ¹®ÀÚ¿­ÀÌ ÀÌ¹Ì Á¸ÀçÇÏ¸é °¹¼ö Áõ°¡, ¾øÀ¸¸é map ¿¡ Ãß°¡
+		// ë¬¸ìì—´-> char ë¶„ë¥˜í•´ì„œ ë¬¸ìì—´ì´ ì´ë¯¸ ì¡´ì¬í•˜ë©´ ê°¯ìˆ˜ ì¦ê°€, ì—†ìœ¼ë©´ map ì— ì¶”ê°€
 		Map<Character, Integer> fre = new HashMap<Character, Integer>();
 		for (char letter : s.toCharArray()) {
 			if (fre.containsKey(letter))
@@ -19,14 +19,14 @@ public class SherlockandtheValidString_3 {
 		}
 
 		Set<Integer> st = new HashSet<>();
-		// HasuSet ¿¡ °ªÀ» Ãß°¡ÇÒ¶§ add »ç¿ë.
-		// ÀÔ·ÂµÇ´Â °ªÀÌ HashSet ³»ºÎ¿¡ Á¸ÀçÇÏÁö ¾ÊÀ¸¸é Ãß°¡ / Áßº¹µÇ¸é Ãß°¡ÇÏÁö ¾Ê´Â´Ù.
+		// HasuSet ì— ê°’ì„ ì¶”ê°€í• ë•Œ add ì‚¬ìš©.
+		// ì…ë ¥ë˜ëŠ” ê°’ì´ HashSet ë‚´ë¶€ì— ì¡´ì¬í•˜ì§€ ì•Šìœ¼ë©´ ì¶”ê°€ / ì¤‘ë³µë˜ë©´ ì¶”ê°€í•˜ì§€ ì•ŠëŠ”ë‹¤.
 		for (int freq : fre.values()) {
 			st.add(freq);
 		}
 
 		if (st.size() > 2) {
-			// Map ÀÇ Å©±â°¡ 2º¸´Ù Å«°ÍÀº ±æÀÌ°¡ ´Ù¸¥ ¹®ÀÚ¿­ÀÇ Á¾·ù°¡ 2°³°¡ ³Ñ´Â°ÍÀÌ¹Ç·Î NO
+			/// Map ì˜ í¬ê¸°ê°€ 2ë³´ë‹¤ í°ê²ƒì€ ê¸¸ì´ê°€ ë‹¤ë¥¸ ë¬¸ìì—´ì˜ ì¢…ë¥˜ê°€ 2ê°œê°€ ë„˜ëŠ”ê²ƒì´ë¯€ë¡œ NO
 			answer = "NO";
 		} else if (st.size() == 1)
 			answer = "YES";
@@ -52,10 +52,10 @@ public class SherlockandtheValidString_3 {
 			}
 
 			if ((f1 == 1 && f1cnt == 1) || (f2 == 1 && f2cnt == 1)) {
-				// ±æÀÌ°¡ 1¾¿ÀÏ¶§
+				// ê¸¸ì´ê°€ 1ì”©ì¼ë•Œ
 				answer = "YES";
 			} else if ((Math.abs(f1 - f2) == 1) && (f1cnt == 1 || f2cnt == 1))
-				// µÎ°³¿©µµ 1¸¸ Â÷ÀÌ³­´Ù¸é 1¹ø»èÁ¦ÇØ¼­ °¡´ÉÇØÁö¹Ç·Î
+				/// ë‘ê°œì—¬ë„ 1ë§Œ ì°¨ì´ë‚œë‹¤ë©´ 1ë²ˆì‚­ì œí•´ì„œ ê°€ëŠ¥í•´ì§€ë¯€ë¡œ
 				answer = "YES";
 			else
 				answer = "NO";
