@@ -5,11 +5,10 @@ public class strStr {
 		int answer = 0;
 		if (needle.isEmpty()) {
 			// 비어있다면 0 리턴
-			return answer;
-		} else {
 			int nhash = makehash(needle);
 			// heystack 0 번째 문자열부터 비교를 해서 needle 길이까지 비교해야하는데 ㅎㅎ
 		}
+		return answer;
 	}
 
 	public int makehash(String Str) {
