@@ -6,12 +6,12 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class t1012 {
-	// ¹éÁØ À¯±â³ó ¹èÃß
-	static int T; // Å×½ºÆ® ÄÉÀÌ½º °¹¼ö
-	static int G; // °¡·Î
-	static int S; // ¼¼·Î±æÀÌ
-	static int B; // ¹èÃß °¹¼ö
-	static int[][] box; // ¶¥
+	// ë°±ì¤€ ìœ ê¸°ë† ë°°ì¶”
+	static int T; // í…ŒìŠ¤íŠ¸ì¼€ì´ìŠ¤ ê°¯
+	static int G; // ê°€ë¡œ
+	static int S; // ì„¸ë¡œê¸¸
+	static int B; // ë°°ì¶” ê°¯ìˆ˜
+	static int[][] box; // ë•…
 	static int p;
 	static int q;
 
@@ -26,17 +26,17 @@ public class t1012 {
 		S = Integer.parseInt(st.nextToken());
 		B = Integer.parseInt(st.nextToken());
 
-		// 1. for ¹® µ¹¾Æ¼­ ´Ù ½É°í½ÍÀºµğ...
-		// ³ëµå·Î ¸¸µå±î?¤·¤µ¤· ¶ì¿ë
-		// 2. bfs ÀÌ¿ëÇØ¼­ ÀÎÁ¢ ¹èÃß °¡Áø ¹èÃß ¸ğÀÓ ¼ö¸¦ ¼¼°í½ÍÀºµ­
-		// °°Àº µ¢¾î¸®ÀÎÁö´Â ¾î¶ÇÄÉ Ã¼Å©ÇÏµğ?¤·¤µ¤·
+		// 1. for ë¬¸ ëŒì•„ì„œ ë‹¤ ì‹¬ê³ ì‹¶ì€ë””...
+		// ë…¸ë“œë¡œ ë§Œë“œê¹Œ?ã…‡ã……ã…‡ ë ìš©
+		// 2. bfs ì´ìš©í•´ì„œ ì¸ì ‘ ë°°ì¶” ê°€ì§„ ë°°ì¶” ëª¨ì„ ìˆ˜ë¥¼ ì„¸ê³ ì‹¶ì€ë…
+		// ê°™ì€ ë©ì–´ë¦¬ì¸ì§€ëŠ” ì–´ë˜ì¼€ ì²´í¬í•˜ë””?ã…‡ã……ã…‡
 		box = new int[G][S];
 
 		for (int i = 0; i < B; i++) {
-			st = new StringTokenizer(br.readLine()); // ÁÙ¹Ù²ŞÀ» °è¼ÓÇØ¾ßÂ¡
+			st = new StringTokenizer(br.readLine()); // ï¿½Ù¹Ù²ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½Â¡
 			p = Integer.parseInt(st.nextToken());
 			q = Integer.parseInt(st.nextToken());
-			// ¹èÃß¸¦ ´Ù ½É¾î¶°
+			// ï¿½ï¿½ï¿½ß¸ï¿½ ï¿½ï¿½ ï¿½É¾î¶°
 			box[p][q] = 1;
 //			System.out.println("P : " + p + " / Q : " + q + " / " + box[p][q]);
 
