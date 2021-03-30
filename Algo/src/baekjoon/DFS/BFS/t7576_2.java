@@ -8,9 +8,9 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class t7576_2 {
-// ¹éÁØ BFS Åä¸¶Åä
+// ë°±ì¤€ BFS í† ë§ˆí† 
 //	https://www.acmicpc.net/problem/7576
-//  Âü°í https://bcp0109.tistory.com/entry/%EB%B0%B1%EC%A4%80-7576%EB%B2%88-%ED%86%A0%EB%A7%88%ED%86%A0-Java
+//  ì°¸ê³  https://bcp0109.tistory.com/entry/%EB%B0%B1%EC%A4%80-7576%EB%B2%88-%ED%86%A0%EB%A7%88%ED%86%A0-Java	static int N;
 	static int N;
 	static int M;
 	static int[][] box;
@@ -18,6 +18,7 @@ public class t7576_2 {
 	static int[] dy = { 0, 0, 1, -1 };
 
 	static class Dot {
+		// í´ë˜ìŠ¤ë¥¼ ìƒì„±í•´ì„œ ì¢Œí‘œ, ë‚ ì§œ ì •ì˜ 
 		int x;
 		int y;
 		int day;
@@ -38,7 +39,7 @@ public class t7576_2 {
 
 		box = new int[M][N];
 
-		// box¿¡ Åä¸¶Åä ´ã±â
+		// boxì— í† ë§ˆí†  ë‹´ê¸°
 		for (int i = 0; i < M; i++) {
 			st = new StringTokenizer(br.readLine());
 			for (int j = 0; j < N; j++) {
@@ -46,17 +47,16 @@ public class t7576_2 {
 			}
 		}
 		bfs();
-
-		// bfs ¸¦ µ¹¸é¼­ Åä¸¶Åä ¸ğµÎ ÀÍ°ÔÇÏ±â
-		// ´Ù½Ã 2Áß for ¹® µ¹¸é¼­
+		// bfs ë¥¼ ëŒë©´ì„œ í† ë§ˆí†  ëª¨ë‘ ìµê²Œí•˜ê¸°
+		// ë‹¤ì‹œ 2ì¤‘ for ë¬¸ ëŒë©´ì„œ
 	}
 
 	static void bfs() {
 		Queue<Dot> q = new LinkedList<Dot>();
 		int day = 0;
 
-		// 2Áß for¹®À¸·Î box ¹è¿­À» µ¹¸é¼­ ÀÍÀº Åä¸¶Åä¸¦ Queue ¿¡ ³Ö±â
-		// Åä¸¶Åä°¡ ÀÖ´Â ÁÂÇ¥ Ã£¾Æ¼­ Queue ¿¡ ³Ö±â
+		// 2ì¤‘ forë¬¸ìœ¼ë¡œ box ë°°ì—´ì„ ëŒë©´ì„œ ìµì€ í† ë§ˆí† ë¥¼ Queue ì— ë„£ê¸°
+		// í† ë§ˆí† ê°€ ìˆëŠ” ì¢Œí‘œ ì°¾ì•„ì„œ Queue ì— ë„£ê¸°
 		for (int i = 0; i < M; i++) {
 			for (int j = 0; j < N; j++) {
 				if (box[i][j] == 1) {
@@ -64,19 +64,19 @@ public class t7576_2 {
 				}
 			}
 		}
-		// bfs ½ÃÀÛ
+		// bfs ì‹œì‘ 
 		while (!q.isEmpty()) {
 			Dot dot = q.poll();
 			day = dot.day;
 
 			for (int i = 0; i < 4; i++) {
-				// ¿À ¿Ş À§ ¾Æ ¸ğµç¹æÇâÀ¸·Î ÀÌµ¿ÇØ¼­ Å½»öÇØº¸±â À§ÇÑ°Í
+				// ì˜¤ ì™¼ ìœ„ ì•„ ëª¨ë“ ë°©í–¥ìœ¼ë¡œ ì´ë™í•´ì„œ íƒìƒ‰í•´ë³´ê¸° ìœ„í•œê²ƒ
 				int nx = dot.x + dx[i];
 				int ny = dot.y + dy[i];
 
 				if (0 <= nx && nx < M && 0 <= ny && ny < N) {
-					if (box[nx][ny] == 0) { // box ¿¡ Åä¸¶Åä°¡ µé¾îÀÖÀ¸¸é
-						box[nx][ny] = 1; // ÀÍÈ÷±â
+					if (box[nx][ny] == 0) { // box ì— í† ë§ˆí† ê°€ ë“¤ì–´ìˆìœ¼ë©´
+						box[nx][ny] = 1; // ìµíˆê¸°
 						q.add(new Dot(nx, ny, day + 1));
 					}
 				}

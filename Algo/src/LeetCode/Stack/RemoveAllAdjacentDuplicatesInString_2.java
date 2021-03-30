@@ -8,7 +8,7 @@ public class RemoveAllAdjacentDuplicatesInString_2 {
 		System.out.println(removeDuplicates(S));
 
 	}
-
+// 이거 에러남... ㅎ...
 	public static String removeDuplicates(String S) {
 		char[] chr = S.toCharArray();
 		Stack<Character> str = null;

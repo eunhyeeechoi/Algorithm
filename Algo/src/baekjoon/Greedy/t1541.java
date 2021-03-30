@@ -4,32 +4,32 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//:: ¹éÁØ ÀÒ¾î¹ö¸° °ıÈ£ - ¹®ÀÚ¿­, greedy
-// ÀÌ·± ¹®Á¦´Â ¾î¶»°Ô ÇØ°áÇÒÁö °¡´ÚÀ» Àâ´Â°Ô °¡Àå Áß¿äÇÑµí
-// ÀÌ°Ç »ç½Ç ¿¬»êÇÏ´Â°É ±¸Çö¸¸ ÇÏ¸é µÇ´Â ¹®Á¦¿©½î ¤Ğ¤Ğ ±Ùµ¥ Á¢±ÙÀ» Àß ¸øÇß³ß
-// ÀÌ·±¹®Á¦¸¦ ¸¹ÀÌ Ç®¾îºÁ¾ßÇÒµí?!
-// point - 'Å« ¼ö' ¸¦ »©¾ß ÃÖ¼Ú°ªÀ» ±¸ÇÒ ¼ö ÀÖ¿À
-// --> µ¡¼ÀÀ¸·Î ÀÌ·ç¾îÁø ºÎºĞÀ» ¸ÕÀú ¿¬»êÇØ¾ßÇØ!
-// https://st-lab.tistory.com/148
+//:: ë°±ì¤€ ìƒì–´ë²„ë¦° ê´„í˜¸ - ë¬¸ìì—´, greedy
+//ì´ëŸ° ë¬¸ì œëŠ” ì–´ë–»ê²Œ í•´ê²°í• ì§€ ê°€ë‹¥ì„ ì¡ëŠ”ê²Œ ê°€ì¥ ì¤‘ìš”í•œë“¯
+//ì´ê±´ ì‚¬ì‹¤ ì—°ì‚°í•˜ëŠ”ê±¸ êµ¬í˜„ë§Œ í•˜ë©´ ë˜ëŠ” ë¬¸ì œì—¬ì˜ ã… ã…  ê·¼ë° ì ‘ê·¼ì„ ì˜ ëª»í–ˆë„¹
+//ì´ëŸ°ë¬¸ì œë¥¼ ë§ì´ í’€ì–´ë´ì•¼í• ë“¯?!
+//point - 'í° ìˆ˜' ë¥¼ ë¹¼ì•¼ ìµœì†Ÿê°’ì„ êµ¬í•  ìˆ˜ ìˆì˜¤
+//--> ë§ì…ˆìœ¼ë¡œ ì´ë£¨ì–´ì§„ ë¶€ë¶„ì„ ë¨¼ì € ì—°ì‚°í•´ì•¼í•´!
+//https://st-lab.tistory.com/148
 public class t1541 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		int sum = Integer.MAX_VALUE; // ÃÊ±â »óÅÂ ¿©ºÎ È®ÀÎÀ» À§ÇÑ °ªÀ¸·Î ¼³Á¤
+		int sum = Integer.MAX_VALUE; // ì´ˆê¸° ìƒíƒœ ì—¬ë¶€ í™•ì¸ì„ ìœ„í•œ ê°’ìœ¼ë¡œ ì„¤ì •
 		String[] subtraction = br.readLine().split("-");
 
 		for (int i = 0; i < subtraction.length; i++) {
 			int temp = 0;
 
-			// »¬¼ÀÀ¸·Î ³ª´¶ ÅäÅ«À» µ¡¼ÀÀ¸·Î ºĞ¸®ÇÏ¿© ÇØ´ç ÅäÅ«À» ´õÇÔ
+			// ëº„ì…ˆìœ¼ë¡œ ë‚˜ë‰œ í† í°ì„ ë§ì…ˆìœ¼ë¡œ ë¶„ë¦¬í•˜ì—¬ í•´ë‹¹ í† í°ì„ ë”í•¨
 			String[] addition = subtraction[i].split("\\+");
 
-			// µ¡¼ÀÀ¸·Î ³ª´¶ ÅäÅ«À» ¸ğµÎ ´õÇÔ
+			// ë§ì…ˆìœ¼ë¡œ ë‚˜ë‰œ í† í°ì„ ëª¨ë‘ ë”í•¨
 			for (int j = 0; j < addition.length; j++) {
 				temp += Integer.parseInt(addition[j]);
 			}
 
-			// Ã¹¹øÂ° ÅäÅ«ÀÎ °æ¿ì temp °ªÀÌ Ã¹¹øÂ° ¼ö°¡ ‰Î
+			// ì²«ë²ˆì§¸ í† í°ì¸ ê²½ìš° temp ê°’ì´ ì²«ë²ˆì§¸ ìˆ˜ê°€
 			if (sum == Integer.MAX_VALUE) {
 				System.out.println("Integer.MAX_VALUE" + Integer.MAX_VALUE);
 				sum = temp;

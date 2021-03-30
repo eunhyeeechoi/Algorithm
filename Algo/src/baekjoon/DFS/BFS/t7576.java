@@ -8,12 +8,11 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class t7576 {
-// ¹éÁØ BFS Åä¸¶Åä
-//	https://www.acmicpc.net/problem/7576
-//  ÀÎÁ¢ÇÑ ³ëµå¸¦ Ã£¾Æ¾ßÇÏ¹Ç·Î BFS	
-//  1. ÀÎÁ¢ ³ëµå°ü°è¸¦ °¡Áø ±×·¡ÇÁ¸¦ ±×·Á¾ßÇÏ°í
-//  2. ¾ÕµÚ ¾ç¿·Áß -1ÀÌ ¾Æ´Ñ°÷À» Å½»öÇØ¼­ 1·Î ¹Ù²Ù°í cnt Áõ°¡
-//	static void bfs(int )
+	// ë°±ì¤€ BFS í† ë§ˆí† 
+	// https://www.acmicpc.net/problem/7576
+	// ì¸ì ‘í•œ ë…¸ë“œë¥¼ ì°¾ì•„ì•¼í•˜ë¯€ë¡œ BFS
+	// 1. ì¸ì ‘ ë…¸ë“œê´€ê³„ë¥¼ ê°€ì§„ ê·¸ë˜í”„ë¥¼ ê·¸ë ¤ì•¼í•˜ê³ 
+	// 2. ì•ë’¤ ì–‘ì˜†ì¤‘ -1ì´ ì•„ë‹Œê³³ì„ íƒìƒ‰í•´ì„œ 1ë¡œ ë°”ê¾¸ê³  cnt ì¦ê°€
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -21,8 +20,8 @@ public class t7576 {
 		int garo = Integer.parseInt(st.nextToken());
 		int sero = Integer.parseInt(st.nextToken());
 
-		// 2Â÷¿ø ¹è¿­ Å¥¸¦ ¸¸µé°í
+		// 2ì°¨ì› ë°°ì—´ íë¥¼ ë§Œë“¤ê³ 
 		Queue<Integer> queue = new LinkedList<Integer>();
-		// »ı¼ºµÈ Å¥¸¦ Å½»öÇØ¾ßÇØ
+		// ìƒì„±ëœ íë¥¼ íƒìƒ‰í•´ì•¼í•´
 	}
 }
