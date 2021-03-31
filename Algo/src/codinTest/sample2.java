@@ -18,6 +18,7 @@ public class sample2 {
 	 */
 
 	public static List<Integer> oddNumbers(int l, int r) {
+		return null;
 		// Write your code here
 
 	}
