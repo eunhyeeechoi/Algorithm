@@ -24,7 +24,7 @@ public class MoveZeroes {
 	}
 
 	private void swap(int[] nums, int zidx, int midx) {
-		// 두개의 값을 교환
+		// 인덱스를 입력 받아서 두개의 값을 교환
 		int tmp = nums[zidx];
 		nums[zidx] = nums[midx];
 		nums[midx] = tmp;

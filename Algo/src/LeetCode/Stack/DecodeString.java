@@ -21,7 +21,7 @@ public class DecodeString {
 		int k = 0;
 		for (char c : s.toCharArray()) {
 			if (Character.isDigit(c)) { // 문자열이 숫자인지 판별 ㅎㅎ
-				k = k * 10 + c - '0'; // 이게 무슨의미인지 잘 모르겠음 ㅎㅎ
+				k = k * 10 + c - '0'; // 이게 무슨의미인지 잘 모르겠음 ㅎㅎ character 를 숫자로 바꾸는것
 			} else if (c == '[') {
 				// 여는 괄호가 시작되면 문자열을 담기 시작
 				it.push(k); // it 스택에는반복 되는 수를 담고
