@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b53fb589-f5fd-4e63-a7c4-dbea1b2db173" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/MergeSortArray_concept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/findPeekElem_concept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/LeetCode/Array/SortColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LeetCode/Array/SortColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/SortColors.java" afterDir="false" />
-    </list>
+    <list default="true" id="b53fb589-f5fd-4e63-a7c4-dbea1b2db173" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
