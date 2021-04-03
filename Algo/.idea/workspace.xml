@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53fb589-f5fd-4e63-a7c4-dbea1b2db173" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Binary/BinaryExam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Binary/Tree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Binary/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Bubble/BubbleExam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Merge/MergeExam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Quick/QuickExam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Selection/SelectionExam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/binarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/binarySearch_concept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Binary/BinaryExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort/BinaryExam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Bubble/BubbleExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort/BubbleExam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Merge/MergeExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort/MergeExam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Quick/QuickExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort/QuickExam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Selection/SelectionExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort/SelectionExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/MergeSortArray_concept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/findPeekElem_concept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LeetCode/Array/SortColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LeetCode/Array/SortColors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/SortColors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -37,8 +37,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MergeIntervals">
     <configuration name="AddOneRowToTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.AddOneRowToTree" />
       <module name="Algo" />
@@ -52,8 +53,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Array.MergeIntervals" />
+      <module name="Algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Array.MergeSortedArray" />
+      <module name="Algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Array.SortColors" />
+      <module name="Algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeIntervals" />
+        <item itemvalue="Application.MergeSortedArray" />
+        <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.AddOneRowToTree" />
       </list>
     </recent_temporary>
@@ -68,5 +111,16 @@
       <updated>1617240490672</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
