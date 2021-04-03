@@ -1,7 +1,7 @@
 package LeetCode.Array;
 
 public class binarySearch_concept {
-	// tow point 사용
+	// two point 사용
 	// target 에서 nums 를 찾는다
 	public int search(int[] nums, int target) {
 		int left = 0;

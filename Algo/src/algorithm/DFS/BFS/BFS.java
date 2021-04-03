@@ -87,7 +87,7 @@ class Graph2 { // 그래프클래스
 		if (!n1.adjacent.contains(n2)) {
 			n1.adjacent.add(n2);
 		}
-		if (!n2.adjacent.contains(n2)) {
+		if (!n2.adjacent.contains(n1)) {
 			n2.adjacent.add(n1);
 		}
 	}

@@ -1,6 +1,5 @@
 package LeetCode.Array;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -22,10 +21,10 @@ public class MergeIntervals {
         });
         // 1차원 배열로 만들까 하나씩 꺼내서 겹치는지 확인하고 merge 하까
 
-        for (int i = 0; i < intervals.length-1; i++) {
+        for (int i = 0; i < intervals.length - 1; i++) {
             int nstart = intervals[i + 1][0];
             int bend = intervals[i][1];
-            System.out.println("start"+nstart);
+            System.out.println("start" + nstart);
             System.out.println(bend);
         }
 

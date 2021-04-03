@@ -1,5 +1,5 @@
 package LeetCode.Array;
-
+// 배열 내에서 좌우 값들의 합이 같아지는 인덱스 리턴
 public class FindPivotIndex {
 	public static void main(String[] args) {
 		FindPivotIndex aa = new FindPivotIndex();
