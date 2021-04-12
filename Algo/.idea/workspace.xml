@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53fb589-f5fd-4e63-a7c4-dbea1b2db173" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codinTest/back_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codinTest/k_cur1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codinTest/k_cur3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/FindtheDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/ShortestUnsortedSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.settings/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Algo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/FindPivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/FindPivotIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/MoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/binarySearch_concept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/binarySearch_concept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Stack/DecodeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Stack/DecodeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/DFS/BFS/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/DFS/BFS/BFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +35,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.back_1">
+  <component name="RunManager" selected="Application.FindtheDuplicateNumber">
     <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.DFS.BFS.BFS" />
       <module name="Algo" />
@@ -67,12 +49,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Stack.MinStack" />
+    <configuration name="FindtheDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Array.FindtheDuplicateNumber" />
       <module name="Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Stack.*" />
+          <option name="PATTERN" value="LeetCode.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestUnsortedSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Array.ShortestUnsortedSubarray" />
+      <module name="Algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,19 +77,6 @@
     </configuration>
     <configuration name="back_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codinTest.back_1" />
-      <module name="Algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codinTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="k_cur1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codinTest.k_cur1" />
       <module name="Algo" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindtheDuplicateNumber" />
+        <item itemvalue="Application.ShortestUnsortedSubarray" />
         <item itemvalue="Application.back_1" />
         <item itemvalue="Application.BFS" />
         <item itemvalue="Application.k_cur3" />
-        <item itemvalue="Application.k_cur1" />
-        <item itemvalue="Application.MinStack" />
       </list>
     </recent_temporary>
   </component>
