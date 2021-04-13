@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53fb589-f5fd-4e63-a7c4-dbea1b2db173" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/RotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/twoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/twoSum_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Hash/IsomorphicStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Hash/IsomorphicStrings_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Hash/twoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Hash/RandomizedSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Hash/TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Hash/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Hash/ValidAnagram_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Hash/WordPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Hash/FirstUniqueCharacterinaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Hash/FirstUniqueCharacterinaString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Hash/IsomorphicStrings_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Hash/IsomorphicStrings_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="LeetCode.Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.twoSum">
+  <component name="RunManager" selected="Application.RandomizedSet">
     <configuration name="FindtheDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Array.FindtheDuplicateNumber" />
       <module name="Algo" />
@@ -67,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestUnsortedSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Array.ShortestUnsortedSubarray" />
+    <configuration name="RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Hash.RandomizedSet" />
       <module name="Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Array.*" />
+          <option name="PATTERN" value="LeetCode.Hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="back_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codinTest.back_1" />
+    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Hash.WordPattern" />
       <module name="Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codinTest.*" />
+          <option name="PATTERN" value="LeetCode.Hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomizedSet" />
+        <item itemvalue="Application.WordPattern" />
         <item itemvalue="Application.twoSum" />
         <item itemvalue="Application.twoSum_2" />
         <item itemvalue="Application.FindtheDuplicateNumber" />
-        <item itemvalue="Application.ShortestUnsortedSubarray" />
-        <item itemvalue="Application.back_1" />
       </list>
     </recent_temporary>
   </component>

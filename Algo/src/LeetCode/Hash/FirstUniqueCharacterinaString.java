@@ -1,7 +1,8 @@
 package LeetCode.Hash;
 
 import java.util.HashMap;
-
+// leetcode 387
+// 반복되지 않는 첫번째 char 찾는 문제
 public class FirstUniqueCharacterinaString {
 	public static void main(String[] args) {
 		FirstUniqueCharacterinaString aa = new FirstUniqueCharacterinaString();

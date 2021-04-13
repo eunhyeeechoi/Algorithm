@@ -22,11 +22,15 @@ public class IsomorphicStrings_2 {
             char schar = s.charAt(i);
             char tchar = t.charAt(i);
             if (hash.containsKey(schar)) {
+                // 맵에 이미 key 가 들어있다면 입력되는것과 같은지 비교
                 if (hash.get(schar).equals(tchar))
+                    // 같으면 계속 진행
                     continue;
                 else
+                    // 다르다면 false 리턴 짝이 다른것
                     return false;
             } else {
+                // 새로 입력되는 value 값이 존재 하지 않으면 삽입
                 if (!hash.containsValue(tchar))
                     hash.put(schar, tchar);
                 else
