@@ -1,7 +1,6 @@
 package LeetCode.Hash;
 // Hash, Array 를 이용해서 Random, insert, semove 구현
-
-import com.sun.org.apache.xerces.internal.impl.dtd.models.CMAny;
+// https://leetcode.com/problems/insert-delete-getrandom-o1/ - Insert Delete Get Random
 
 import java.util.*;
 
@@ -24,7 +23,7 @@ public class RandomizedSet {
      */
     public RandomizedSet() {
         map = new HashMap<>();
-        list = new ArrayList<>();
+        list = new ArrayList<>(); // Dynamic Array
 
     }
 
@@ -35,7 +34,7 @@ public class RandomizedSet {
         if (map.containsKey(val)) return false;
         else {
             list.add(val);
-            map.put(val, list.size() - 1);
+            map.put(val, list.size() - 1); // 수, index 저장
             return true;
         }
     }
@@ -48,15 +47,15 @@ public class RandomizedSet {
         else {
             int len = list.size() - 1;
             int lastNum = list.get(len);
-            int idx = map.get(val);
-            if (idx != len) {
-                list.set(idx, lastNum);
-                map.put(lastNum, idx);
+            int idx = map.get(val); // map 에서 위치를 꺼내옴
+            if (idx != len) { // 꺼내온것이 맨 뒤에 위치하지 않는다면
+                list.set(idx, lastNum); // Array 에 삭제시킬것 위치에 맨 뒤에것의 값 을 넣어주고
+                map.put(lastNum, idx); // map 에 맨끝값의 위치가 변경된 index 삽입
             }
 
             list.remove(len);
             map.remove(val);
-
+            //맨뒤의 것들을 각각 삭제하면 성공적으로 삭제가 됌
             return true;
         }
     }
