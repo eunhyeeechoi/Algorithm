@@ -12,6 +12,7 @@ public class IsomorphicStrings_2 {
         String t = "xxxyyz";
         //String s = "aaaffh";
         //String t = "xyzhhh";
+        System.out.println(aa.isIsomorphic(s, t));
     }
 
     public boolean isIsomorphic(String s, String t) {

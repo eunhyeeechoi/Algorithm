@@ -9,7 +9,6 @@ public class twoSum {
         //int target = 9;
         int target = 10;
 
-
     }
 
     public int[] twoSum(int[] nums, int target) {
