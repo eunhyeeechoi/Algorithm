@@ -15,8 +15,10 @@ public class RemoveAllAdjacentDuplicatesInString_3 {
         Stack<Character> stack = new Stack<>();
         for (char c : S.toCharArray()) {
             if (!stack.isEmpty() && stack.peek() == c) {
+                // 지금 입력되는 값이랑 같은지 비교하고 같으면 스택에서 제거
                 stack.pop();
             } else {
+                // 지금 입력되는 값이 다르면 추가
                 stack.push(c);
             }
         }

@@ -13,7 +13,7 @@ public class BinarySearch {
         int left = 0;
         int right = nums.length - 1;
         while (left <= right) {
-            int pivot = (left + right) / 2; // pivot index를ㅌ 잡고
+            int pivot = (left + right) / 2; // pivot index를 잡고
             if (nums[pivot] == target) {
                 return pivot;
             } else if (nums[pivot] < target) {

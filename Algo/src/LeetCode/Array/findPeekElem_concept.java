@@ -15,7 +15,7 @@ public class findPeekElem_concept {
             int nextNum = nums[pivot + 1];
             // 범위를 이동하여 푸는 문제
             if (num < nextNum) {
-                left = pivot + 1; // 반 나눈것보다 옆의것이 크다면 오른쪽에 peak 이 존
+                left = pivot + 1; // 반 나눈것보다 옆의것이 크다면 오른쪽에 peak 이 존재 
             } else {
                 right = pivot; // peak 을 포함해서 peak 이 될 수 있기때문에 왼쪽으로 이동
             }

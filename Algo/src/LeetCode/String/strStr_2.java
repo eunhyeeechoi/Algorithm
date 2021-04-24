@@ -1,7 +1,7 @@
 package LeetCode.String;
 
 //https://leetcode.com/problems/implement-strstr/discuss/13035/on-solution-using-concept-of-rolling-hash
-// 리트코드 -String 문제 Rolling Hash를 이용한풀
+// 리트코드 -String 문제 Rolling Hash를 이용한풀이 
 public class strStr_2 {
 	public int strStr(String haystack, String neddle) {
 		if (haystack == null && neddle == null) // 빈것이면 0 리
