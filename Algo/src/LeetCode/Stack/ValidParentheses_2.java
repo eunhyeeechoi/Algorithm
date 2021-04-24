@@ -44,7 +44,8 @@ public class ValidParentheses_2 {
     public static void main(String[] args) {
         ValidParentheses_2 aa = new ValidParentheses_2();
         //       String s = "([)]";
-        String s = "()[]{}";
+       // String s = "()[]{}";
+        String s = "{()[]{}}";
         System.out.println(aa.isValid(s));
     }
 }

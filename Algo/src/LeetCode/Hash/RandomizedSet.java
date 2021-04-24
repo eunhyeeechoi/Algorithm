@@ -1,5 +1,5 @@
 package LeetCode.Hash;
-// Hash, Array 를 이용해서 Random, insert, semove 구현
+// Hash, Array 를 이용해서 Random, insert, remove 구현
 // https://leetcode.com/problems/insert-delete-getrandom-o1/ - Insert Delete Get Random
 
 import java.util.*;

@@ -3,21 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="b53fb589-f5fd-4e63-a7c4-dbea1b2db173" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/codinTest/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codinTest/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codinTest/Test02.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codinTest/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codinTest/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codinTest/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codinTest/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codinTest/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/FindtheDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/FindtheDuplicateNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/binarySearch_concept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/binarySearch_concept.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/findPeekElem_concept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/findPeekElem_concept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Hash/IsomorphicStrings_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Hash/IsomorphicStrings_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/Hash/RandomizedSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Hash/RandomizedSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Hash/twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Hash/twoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Stack/BasicCalculator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Stack/BasicCalculator2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/Stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Stack/MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/Stack/RemoveAllAdjacentDuplicatesInString_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Stack/RemoveAllAdjacentDuplicatesInString_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/Stack/ValidParentheses_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Stack/ValidParentheses_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/String/AddStrings_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/String/AddStrings_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/String/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/String/Anagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/String/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/String/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/String/strStr_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/String/strStr_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +64,13 @@
       <recent name="LeetCode.Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashExam">
-    <configuration name="Anagrams_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.String.Anagrams_2" />
+  <component name="RunManager" selected="Application.Test6">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codinTest.Test1" />
       <module name="Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.String.*" />
+          <option name="PATTERN" value="codinTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqueCharacterinaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Hash.FirstUniqueCharacterinaString" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codinTest.Test3" />
       <module name="Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Hash.*" />
+          <option name="PATTERN" value="codinTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.hash.HashExam" />
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codinTest.Test4" />
       <module name="Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.hash.*" />
+          <option name="PATTERN" value="codinTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStrings_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Hash.IsomorphicStrings_2" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codinTest.Test5" />
       <module name="Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Hash.*" />
+          <option name="PATTERN" value="codinTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringwoRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.String.LongestSubstringwoRepeatingCharacters" />
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codinTest.Test6" />
       <module name="Algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.String.*" />
+          <option name="PATTERN" value="codinTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashExam" />
-        <item itemvalue="Application.IsomorphicStrings_2" />
-        <item itemvalue="Application.FirstUniqueCharacterinaString" />
-        <item itemvalue="Application.LongestSubstringwoRepeatingCharacters" />
-        <item itemvalue="Application.Anagrams_2" />
+        <item itemvalue="Application.Test6" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +149,14 @@
       <option name="presentableId" value="Default" />
       <updated>1617240490672</updated>
     </task>
+    <task id="LOCAL-00001" summary="알고리즘 복습 / 문제 풀이법 학습">
+      <created>1618587453313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618587453313</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
